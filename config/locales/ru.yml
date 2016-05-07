@@ -1,0 +1,16 @@
+ru:
+  project_module_all_files: Все файлы
+  all_project_files: Все файлы проекта
+
+  attached: Прикреплен к
+  to_document: документу
+  to_issue: задаче
+  to_project_files: файлам проекта
+  to_news: новости
+  to_version: версии
+  to_wiki_page: странице вики
+  of_the_project: проекта
+
+  date:
+    formats:
+      month_day: "%d %B"
