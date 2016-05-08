@@ -4,7 +4,7 @@
     <%= hidden_field_tag 'project_id', params[:project_id] %>
     <%= label_tag "search-input", l(:description_search), :class => "hidden-for-sighted" %>
     <p>
-      <%= text_field_tag 'q', @question, :size => 30, :id => 'search-input' %>
+      <%= text_field_tag 'q', @question, :id => 'search-input', style: 'width: 100%;' %>
     </p>
     <p>
       <%= hidden_field_tag 'all_words', '', :id => nil %>
